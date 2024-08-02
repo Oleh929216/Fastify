@@ -266,6 +266,20 @@ application, you should __always__ benchmark if performance matters to you.
 Please visit [Fastify help](https://github.com/fastify/help) to view prior
 support issues and to ask new support questions.
 
+All previous versions of Fastify besides the latest are end of life and will not receive any security or bug fixes. Please visit the [Version Suppor](https://fastify.dev/docs/latest/Guides/Support/)
+
+Our partner, HeroDevs provides commercial security fixes for all unsupported versions https://herodevs.com/nes.
+
+Version Support
+
+ Version | Supported? |  Commercial Support
+ ------------- |---------------------|---------------------
+ 4               | YES |
+ 3               | NO | [`Available Here`](https://herodevs.com/nes)
+ 2               | NO | [`Available Here`](https://herodevs.com/nes)
+ 1               | NO | [`Available Here`](https://herodevs.com/nes)
+ 
+
 ## Contributing
 
 Whether reporting bugs, discussing improvements and new ideas or writing code,
