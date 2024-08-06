@@ -266,7 +266,7 @@ application, you should __always__ benchmark if performance matters to you.
 Please visit [Fastify help](https://github.com/fastify/help) to view prior
 support issues and to ask new support questions.
 
-All previous versions of Fastify besides the latest are end of life and will not receive any security or bug fixes. Please visit the [Version Suppor](https://fastify.dev/docs/latest/Guides/Support/)
+For our LTS Support policy, please visit the [LTS](https://fastify.dev/docs/latest/Reference/LTS/) page.
 
 Our partner, HeroDevs provides commercial security fixes for all unsupported versions https://herodevs.com/nes.
 
