@@ -11,7 +11,7 @@ type HTTPRequestPart = 'body' | 'query' | 'querystring' | 'params' | 'headers'
 export interface RequestGenericInterface {
   Body?: RequestBodyDefault;
   Querystring?: RequestQuerystringDefault;
-  Params?: RequestParamsDefault;
+  Params?: Request ParamsDefault;
   Headers?: RequestHeadersDefault;
 }
 
@@ -22,8 +22,8 @@ export interface ValidationFunction {
 
 export interface RequestRouteOptions<ContextConfig = ContextConfigDefault, SchemaCompiler = FastifySchema> {
   method: string;
-  // `url` can be `undefined` for instance when `request.is404` is true
-  url: string | undefined;
+  // `url`  can be `undefined` for instance when `request.is404` is true
+  url: string |  undefined;
   bodyLimit: number;
   attachValidation: boolean;
   logLevel: string;

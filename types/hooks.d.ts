@@ -5,12 +5,12 @@ import { RawServerBase, RawServerDefault, RawRequestDefaultExpression, RawReplyD
 import { FastifyRequest } from './request'
 import { FastifyReply } from './reply'
 import { FastifyError } from '@fastify/error'
-import { FastifyBaseLogger } from './logger'
+import { FastifyBaseLogger }  from './logger'
 import {
   FastifyTypeProvider,
   FastifyTypeProviderDefault
 } from './type-provider'
-import { RegisterOptions } from './register'
+import { RegisterOptions }  from './register'
 import { FastifySchema } from './schema'
 import { FastifyPluginOptions } from './plugin'
 
